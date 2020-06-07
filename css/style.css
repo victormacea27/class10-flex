@@ -1,0 +1,88 @@
+.nav, .aside, .article, footer {
+  border: 1px solid black;
+  margin: 1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: beige;
+}
+
+header {
+  width: 100%;
+  padding: 20px 40px;
+  border-bottom: 2px solid #000;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.contenido {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav, .aside {
+  width: 20%;
+  background: #7878ce;
+}
+
+.article {
+  width: 60%;
+  background: #e6e6a2;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.article h2 {
+  text-align: center;
+  background: none;
+}
+
+.article .news {
+  border: 2px solid black;
+  margin-bottom: 5px;
+  background: #e6e6a2;
+}
+
+.article .news h3 {
+  text-align: center;
+  background: #e6e6a2;
+}
+
+.article .news p {
+  margin-top: 5px;
+  text-align: justify;
+  background: #e6e6a2;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=style.css.map */
